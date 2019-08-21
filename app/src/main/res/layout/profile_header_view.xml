@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/overleyBackground"
+    android:orientation="vertical"
+    android:padding="20dp">
+<!--    android:background="@drawable/header_bg_src"-->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/hd_image"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/avatar"
+        app:civ_border_color="@color/bluecustom"
+        app:civ_border_width="1dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/hd_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:text="Mehmmed" />
+
+    <TextView
+        android:id="@+id/hd_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333"
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:visibility="gone"/>
+
+</LinearLayout>

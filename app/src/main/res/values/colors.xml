@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#F44336</color> <!--actionbar vs -->
+    <color name="colorPrimaryDark">#D32F2F</color> <!--up to acion bar vs -->
+    <color name="colorAccent">#FF5252</color>  <!-- smallbutton colors -->
+
+
+    PRIMARY TEXT
+
+    <color name="appColors">#E74143</color> <!--up to acion bar vs -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="mainsoft">#32495A</color>  <!-- smallbutton colors -->
+    <color name="mainorange">#F25B42</color>  <!-- smallbutton colors -->
+    <color name="softgreen">#19ab8e</color>  <!-- smallbutton colors -->
+    <color name="maingray">#D8E2E9</color>  <!-- smallbutton colors -->
+
+    <color name="maingreen">#19ab8e</color>  <!-- smallbutton colors -->
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="pinkcustom">#ff0266</color>
+    <color name="bluecustom">#d849a9ed</color>
+    <color name="yellowcustom">#ffff9c0e</color>
+    <color name="whitecustom">#FAFAFA</color>
+    <color name="orange">#F57C00</color>
+    <color name="purple">#673AB7</color>
+    <color name="gifbackground">#65acee</color>
+    <color name="grey">#bfbfbf</color>
+
+
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="background_holo_light_sec">#757575</color>
+    <color name="actionbar">#2196F3</color>
+
+    <color name="error">#e10f0f</color>
+    <color name="red">#d7e10f0f</color>
+
+    <color name="zyonetim">#F28F24</color>
+    <color name="redmain">#af1116</color>
+
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+
+    <color name="first">#428BCA</color>
+    <color name="second">#A0A0A0</color>
+    <color name="therd">#82AF6F</color>
+    <color name="forth">#D15B47</color>
+
+    <color name="notification">#bcd2ff</color>
+
+    <color name="overleyBackground">#7f333639</color>
+    <color name="overleyActionBar">#0e0d0e</color>
+    <color name="colorBlueGray">#7f8fa6</color>
+
+    <!--   <color name="colorPrimary">#273947</color> actionbar vs
+    <color name="colorPrimaryDark">#FAFAFA</color>
+    <color name="colorAccent">#FAFAFA</color>  -->
+
+
+</resources>

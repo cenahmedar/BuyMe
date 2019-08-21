@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "835441712641",
+    "firebase_url": "https://buyme-70d6a.firebaseio.com",
+    "project_id": "buyme-70d6a",
+    "storage_bucket": "buyme-70d6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835441712641:android:dcd264d7f0f8e936",
+        "android_client_info": {
+          "package_name": "com.cenah.buyme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835441712641-6goasc0gjaciafp535qe4na0h7uo4me7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cenah.buyme",
+            "certificate_hash": "3462c57c61e6ae09a1824d20fa62d56cae74e22c"
+          }
+        },
+        {
+          "client_id": "835441712641-c170bjstatf30m1dlb0o0e64o3vmtl2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ9-NV7a0qIfpAC8sPRdNr_PKZgj-2dGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835441712641-c170bjstatf30m1dlb0o0e64o3vmtl2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

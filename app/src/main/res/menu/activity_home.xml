@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_clothes"
+            android:iconTint="@color/white"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/shop"
+            android:iconTint="@color/white"
+            android:title="Basket" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_siparis"
+            android:iconTint="@color/white"
+            android:title="Orders" />
+
+
+        <item
+            android:id="@+id/nav_change_name"
+            android:icon="@drawable/ic_person"
+            android:iconTint="@color/white"
+            android:title="Chnage user name" />
+
+        <item
+            android:id="@+id/nav_log_put"
+            android:icon="@drawable/ic_exit"
+            android:iconTint="@color/white"
+            android:title="Log out" />
+    </group>
+
+
+
+</menu>

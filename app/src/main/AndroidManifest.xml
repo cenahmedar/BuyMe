@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cenah.buyme">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="@string/ACCOUNT_KIT_CLIENT_TOKEN" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name="com.facebook.accountkit.ui.AccountKitActivity" />
+
+
+        <service
+            android:name=".Service.ListenOrder"
+            android:enabled="true"
+            android:exported="true" /> <!-- sayfalar -->
+        <activity
+            android:name=".activities.OrderStatusActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.CartActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.ProductDetailActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.ProductsActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.HomePageActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/AppThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="get yours.."
+            android:exported="true" />
+
+    </application>
+
+</manifest>
