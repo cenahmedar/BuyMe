@@ -1,6 +1,8 @@
 # BuyMe
 Android Shopping app
 
+<img src="custom_icon.png" width="100" >
+
 This application contains two android apps, this project that is made for the clients, 
 the other projcet is server side (made for admins).
 
@@ -20,3 +22,11 @@ products, track the order and change the status of order.
 add products to basket, track orders.
 
 this app also use notifications for each the admins and the users to notify them about the order status.
+
+<img src="client_login.jpeg" width="300" >
+
+<img src="client_cats.jpeg" width="300" >
+
+<img src="client_home.jpeg" width="300" >
+
+<img src="client_stars.jpeg" width="300" >
